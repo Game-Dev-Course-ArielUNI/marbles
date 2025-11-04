@@ -7,7 +7,7 @@
 
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0545fa9a-94fd-4ec8-94b3-45ac661983fb" />\
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0545fa9a-94fd-4ec8-94b3-45ac661983fb" />
 
 
 לרכיבים הרשמיים לחצו כאן:
