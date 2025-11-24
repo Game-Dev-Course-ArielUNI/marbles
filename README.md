@@ -14,4 +14,5 @@
 
 https://github.com/Game-Dev-Course-ArielUNI/marbles/wiki
 
+to play the game:https://yousef-masarwa97.itch.io/marbles
 
