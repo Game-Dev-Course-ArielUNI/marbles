@@ -4,6 +4,7 @@
 
 פלטפורמה: המחשב האישי (מקלדת ועכבר) ובנוסף גרסת מגע לנייד — חוויית משחק חוצה‑פלטפורמות.
 
+to play the game:https://yousef-masarwa97.itch.io/marbles
 
 
 
@@ -14,5 +15,5 @@
 
 https://github.com/Game-Dev-Course-ArielUNI/marbles/wiki
 
-to play the game:https://yousef-masarwa97.itch.io/marbles
+
 
