@@ -16,4 +16,53 @@ to play the game:https://yousef-masarwa97.itch.io/marbles
 https://github.com/Game-Dev-Course-ArielUNI/marbles/wiki
 
 
+---
+
+```mermaid
+classDiagram
+    direction TB
+
+    class GameManager {
+        +static GameManager Instance
+        +SimpleDragNewInput[] players
+        +int currentPlayerIndex
+        +GamePhase phase
+        +Awake() void
+        +CurrentPlayer() SimpleDragNewInput
+        +OnShotFinished(enteredHole bool, hitEnemy bool) void
+        +SwitchTurn() void
+    }
+
+    class SimpleDragNewInput {
+        -Camera cam
+        -Rigidbody2D rb
+        -bool dragging
+        -Vector3 startPos
+        -float maxDrag
+        -float launchPower
+        -int playerIndex
+        -bool enteredHole
+        -bool insideHole
+        -bool touchedHoleThisShot
+        -bool hitEnemy
+        +Awake() void
+        +Update() void
+        +CheckStopped() void
+        +OnTriggerEnter2D(col Collider2D) void
+        +OnTriggerExit2D(col Collider2D) void
+        +OnCollisionEnter2D(col Collision2D) void
+    }
+
+    class GamePhase {
+        <<enumeration>>
+        HoleShot
+        AttackShot
+        Waiting
+        GameOver
+    }
+
+    GameManager --> SimpleDragNewInput : manages players *
+    SimpleDragNewInput --> GameManager : uses singleton
+    GameManager --> GamePhase : controls state
+
 
